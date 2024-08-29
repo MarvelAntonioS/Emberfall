@@ -48,20 +48,9 @@ public partial class @ThirdPersonMovementAssets: IInputActionCollection2, IDispo
             ],
             ""bindings"": [
                 {
-                    ""name"": """",
-                    ""id"": ""35e1ba31-ca3a-4cb6-841d-63ec7dd9ab59"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""2D Vector"",
+                    ""name"": ""3D Vector"",
                     ""id"": ""392b2e9e-716c-448f-b0c8-dbcf83618290"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""3DVector(mode=2)"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -70,29 +59,7 @@ public partial class @ThirdPersonMovementAssets: IInputActionCollection2, IDispo
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
-                    ""id"": ""17fdffcb-56e8-4d65-a80e-bcf65d86b0a6"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""83cc5ed6-bde3-42bf-9511-50ac9826a5f1"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Move"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
+                    ""name"": ""Left"",
                     ""id"": ""f57569b3-f74c-4a3d-882d-251bd859d378"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
@@ -103,9 +70,31 @@ public partial class @ThirdPersonMovementAssets: IInputActionCollection2, IDispo
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
+                    ""name"": ""Right"",
                     ""id"": ""db162243-672c-457f-83e0-6d73e2cac4ca"",
                     ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Forward"",
+                    ""id"": ""c2bb7abc-cf27-406f-86af-ca871cada76a"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Backward"",
+                    ""id"": ""7fca141d-752f-4c66-bd41-5ed867417f91"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
