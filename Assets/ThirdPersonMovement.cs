@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class ThirdPersonMovement : MonoBehaviour
 {
     //Inputs fields 
-    private ThirdPersonMovementAssets playerActionAsset; 
+    private ThirdPersonMovementSettings playerActionAsset; 
     private InputAction move; 
 
     //movement fields 
@@ -27,7 +27,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Awake()
     {
         rb = this.GetComponent<Rigidbody>();
-        playerActionAsset = new ThirdPersonMovementAssets();
+        playerActionAsset = new ThirdPersonMovementSettings();
     }
 
     private void OnEnable()
