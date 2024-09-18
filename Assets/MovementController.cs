@@ -12,30 +12,35 @@ public class MovementController : MonoBehaviour
     //movement fields
     private Rigidbody rb;
     [SerializeField] private float movementForce = 1f;
-    [SerializeField] private float jumpForce = 5f;
+
+    //[SerializeField] private float jumpForce = 5f;
+
     [SerializeField] private float maxSpeed = 5f;
     private Vector3 forceDirection = Vector3.zero;
 
     [SerializeField] private Camera playerCamera;
 
-    [SerializeField] private Animator animator;
+    //[SerializeField] private Animator animator;
     
 
     private void Awake()
     {
         rb = this.GetComponent<Rigidbody>();
         playerActionsAsset = new ThirdPersonMovementSettings();
-        animator = this.GetComponent<Animator>();
+        //animator = this.GetComponent<Animator>();
     }
 
     private void OnEnable()
     {
         move = playerActionsAsset.Player.Move;
+        move.performed += debug;
+
         playerActionsAsset.Player.Enable();
     }
 
     private void OnDisable()
     {
+        move.performed -= debug;
         playerActionsAsset.Player.Disable();
     }
 
@@ -43,6 +48,7 @@ public class MovementController : MonoBehaviour
     {
         physicsMovement();
         LookAt();
+        //animator.SetFloat("speed", rb.velocity.magnitude / maxSpeed);
     }
 
     private void physicsMovement()
@@ -95,5 +101,11 @@ public class MovementController : MonoBehaviour
         Vector3 right = playerCamera.transform.right;
         right.y = 0;
         return right.normalized;
+    }
+
+    private void debug(InputAction.CallbackContext context)
+    {
+        var control = context.control;
+        Debug.Log("Input was triggered by: " + control.displayName);
     }
 }

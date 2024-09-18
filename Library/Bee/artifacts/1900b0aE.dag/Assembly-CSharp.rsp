@@ -361,8 +361,7 @@
 "Assets/Jammo-Character/Scripts/CharacterSkinController.cs"
 "Assets/Jammo-Character/Scripts/MovementInput.cs"
 "Assets/MovementController.cs"
-"Assets/ThirdPerson.cs"
-"Assets/ThirdPersonMovement.cs"
+"Assets/PauseMenuCode.cs"
 -langversion:9.0
 /deterministic
 /optimize+
