@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Bounce : MonoBehaviour
 {
-    public float amplitude = 1f;
-    public float frequency = 1f;
+    public float amplitude = 0.1f;
+    public float frequency = 3f;
     public float delay = 2f; 
     public float initialRise = 0.2f;
     private float startTime;
