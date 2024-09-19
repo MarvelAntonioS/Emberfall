@@ -30,8 +30,9 @@ public class InventoryObject : ScriptableObject
             Container.Items.Add(new InventorySlot(_item.Id, _item, _amount));
     }
 
+//Save() function to save the items collected by player and add to inventory 
     [ContextMenu("Save")]
-    public void Save()
+    public void Save() 
     {
         IFormatter formatter = new BinaryFormatter();
         Stream stream = new FileStream(string.Concat(Application.persistentDataPath, savePath), FileMode.Create, FileAccess.Write);
@@ -39,6 +40,7 @@ public class InventoryObject : ScriptableObject
         stream.Close();
     }
 
+//Load() function to load the items saved from last play
     [ContextMenu("Load")]
     public void Load()
     {
@@ -51,7 +53,7 @@ public class InventoryObject : ScriptableObject
         }
     }
 
-
+//Clear() function to clear the inventory, so saved items will be cleared
     [ContextMenu("Clear")]
     public void Clear()
     {
@@ -65,10 +67,11 @@ public class Inventory
 {
     public List<InventorySlot> Items = new List<InventorySlot>();
 }
-
+    
 [System.Serializable]
 public class InventorySlot
 {
+    //Variables for the inventory items
     public int ID;
     public Item item;
     public int amount;
