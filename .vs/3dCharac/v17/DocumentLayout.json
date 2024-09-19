@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\marve\\3dCharac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marve\\3dCharac\\Assets\\CharacterSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CharacterSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marve\\3dCharac\\Assets\\MovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MovementController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marve\\3dCharac\\Assets\\RougeMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RougeMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marve\\3dCharac\\Assets\\CharacterSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CharacterSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marve\\3dCharac\\Assets\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MovementController.cs",
+              "DocumentMoniker": "C:\\Users\\marve\\3dCharac\\Assets\\MovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\MovementController.cs",
+              "ToolTip": "C:\\Users\\marve\\3dCharac\\Assets\\MovementController.cs",
+              "RelativeToolTip": "Assets\\MovementController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T23:09:55.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CharacterSwitcher.cs",
               "DocumentMoniker": "C:\\Users\\marve\\3dCharac\\Assets\\CharacterSwitcher.cs",
               "RelativeDocumentMoniker": "Assets\\CharacterSwitcher.cs",
               "ToolTip": "C:\\Users\\marve\\3dCharac\\Assets\\CharacterSwitcher.cs",
               "RelativeToolTip": "Assets\\CharacterSwitcher.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T03:20:41.354Z",
               "EditorCaption": ""
@@ -45,14 +62,14 @@
               "RelativeDocumentMoniker": "Assets\\RougeMovement.cs",
               "ToolTip": "C:\\Users\\marve\\3dCharac\\Assets\\RougeMovement.cs",
               "RelativeToolTip": "Assets\\RougeMovement.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAQwDAAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T08:05:48.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "speed.cs",
               "DocumentMoniker": "C:\\Users\\marve\\3dCharac\\Assets\\speed.cs",
               "RelativeDocumentMoniker": "Assets\\speed.cs",
