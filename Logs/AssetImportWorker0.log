@@ -15,7 +15,7 @@ C:/Users/epcel/OneDrive/Documents/GitHub/Emberfall
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52720
+56295
 Successfully changed project path to: C:/Users/epcel/OneDrive/Documents/GitHub/Emberfall
 C:/Users/epcel/OneDrive/Documents/GitHub/Emberfall
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,16 @@ C:/Users/epcel/OneDrive/Documents/GitHub/Emberfall
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21012]  Target information:
+Player connection [15912]  Target information:
 
-Player connection [21012]  * "[IP] 192.168.68.68 [Port] 0 [Flags] 2 [Guid] 2407535000 [EditorId] 2407535000 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0UQM6N3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15912]  * "[IP] 172.21.192.1 [Port] 0 [Flags] 2 [Guid] 3631780832 [EditorId] 3631780832 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0UQM6N3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21012] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21012] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15912]  * "[IP] 192.168.68.68 [Port] 0 [Flags] 2 [Guid] 3631780832 [EditorId] 3631780832 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0UQM6N3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15912] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 27.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 18.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +74,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009770 seconds.
-- Loaded All Assemblies, in  0.765 seconds
+Registered in 0.015443 seconds.
+- Loaded All Assemblies, in  0.778 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.384 seconds
-Domain Reload Profiling: 1147ms
-	BeginReloadAssembly (398ms)
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (237ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (223ms)
-		LoadAssemblies (394ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (234ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (219ms)
-				TypeCache.ScanAssembly (200ms)
+		AnalyzeDomain (326ms)
+			TypeCache.Refresh (323ms)
+				TypeCache.ScanAssembly (288ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (384ms)
+	FinalizeReload (559ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (323ms)
+		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (210ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +120,54 @@ Domain Reload Profiling: 1147ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.121 seconds
+- Loaded All Assemblies, in  1.639 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.673 seconds
-Domain Reload Profiling: 2789ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.918 seconds
+Domain Reload Profiling: 2551ms
+	BeginReloadAssembly (427ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (766ms)
-		LoadAssemblies (646ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1042ms)
+		LoadAssemblies (1009ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (192ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1673ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (267ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (919ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1459ms)
+		SetupLoadedEditorAssemblies (697ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (1295ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 6.45 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3581.
-Memory consumption went from 120.6 MB to 120.6 MB.
-Total: 5.759300 ms (FindLiveObjects: 0.689900 ms CreateObjectMapping: 0.270200 ms MarkObjects: 4.650100 ms  DeleteObjects: 0.146800 ms)
+Unloading 3117 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.5 KB). Loaded Objects now: 3583.
+Memory consumption went from 120.8 MB to 120.7 MB.
+Total: 8.458300 ms (FindLiveObjects: 0.952600 ms CreateObjectMapping: 0.604900 ms MarkObjects: 6.696300 ms  DeleteObjects: 0.201300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,39 +185,661 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 30440.977707 seconds.
-  path: Assets/unitytut-birdbody.png
-  artifactKey: Guid(cb68d60ed4b6b21478a5752c50fc08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unitytut-birdbody.png using Guid(cb68d60ed4b6b21478a5752c50fc08af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '875f9ea73accda97fbd5c7230a39ed74') in 0.108037 seconds
+  Time since last request: 27560.029033 seconds.
+  path: Assets/Esho_Assets/Rock_2/rock_2_split.prefab
+  artifactKey: Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/rock_2_split.prefab using Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c049380538b655930500728d5313de96') in 0.018525 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/unitytut-pipe.png
-  artifactKey: Guid(ceeae9060108586498f1651aea181bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unitytut-pipe.png using Guid(ceeae9060108586498f1651aea181bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab
+  artifactKey: Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab using Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3ac3494efa7de5b7b17a7317ea0da95c') in 0.028382 seconds
+ -> (artifact id: '98342ed1794d02c6aaf46c117c172977') in 0.166070 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 94
 ========================================================================
 Received Import Request.
-  Time since last request: 3.062899 seconds.
-  path: Assets/Esho_Assets
-  artifactKey: Guid(2ab45c3c9336aeb4fbbb03386ad09a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Esho_Assets using Guid(2ab45c3c9336aeb4fbbb03386ad09a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4390e11496ce6981d4702805ade936c6') in 0.000810 seconds
+  Time since last request: 0.000045 seconds.
+  path: Assets/Esho_Assets/Rock_2/Main rock 2.prefab
+  artifactKey: Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/Main rock 2.prefab using Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c704b7bbfcb287da7b2e82ec66871d1') in 0.031776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Esho_Assets/Tree_2/logs 2.prefab
+  artifactKey: Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/logs 2.prefab using Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e238e96a08289d304643d276d086b0b') in 0.028400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Esho_Assets/Tree_2/Tree2.prefab
+  artifactKey: Guid(d6fbd6088eca0c848a867c4f5d9aadf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/Tree2.prefab using Guid(d6fbd6088eca0c848a867c4f5d9aadf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9d163d3da580d998a5c818daaa90343') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Esho_Assets/Tree_2/Tree_01.prefab
+  artifactKey: Guid(dc417c0af0e45c8468ce941f4387d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/Tree_01.prefab using Guid(dc417c0af0e45c8468ce941f4387d7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '869426652586468b7e0e9f0a7ea199a4') in 0.026542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bd207a93918b373f5bb509eb1f21dd5') in 0.001889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 193.657156 seconds.
+  path: Assets/Esho_Assets/Tree_2/untitled1.fbx
+  artifactKey: Guid(03d4f1cfbd519d64a9158fffeb5f158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/untitled1.fbx using Guid(03d4f1cfbd519d64a9158fffeb5f158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6696c6af81c96e37d60840ad24a962b4') in 0.107426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Esho_Assets/Tree_2/untitled2.fbx
+  artifactKey: Guid(3bc52c587bc9c3046af10858136b672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/untitled2.fbx using Guid(3bc52c587bc9c3046af10858136b672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c3828a22c9c5bf6578dac8151e31b1d') in 0.027498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 124.601725 seconds.
+  path: Assets/Esho_Assets/Tree_2/Tree2.prefab
+  artifactKey: Guid(d6fbd6088eca0c848a867c4f5d9aadf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/Tree2.prefab using Guid(d6fbd6088eca0c848a867c4f5d9aadf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b4375f1cb122655e410f2079e056a78') in 0.023948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 119.388804 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6be40c6e0142cc4a949ab62640e3877b') in 0.022094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 7.834521 seconds.
+  path: Assets/Esho_Assets/Rock_1/Main rock 1.prefab
+  artifactKey: Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Main rock 1.prefab using Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2c634948b7fd324de28849a588a42c4') in 0.002130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Esho_Assets/Rock_1/Rock_1_split.prefab
+  artifactKey: Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Rock_1_split.prefab using Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b3d4f6c5186fa34eab08c0ab6fedd74') in 0.023837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 27.564746 seconds.
+  path: Assets/Esho_Assets/Rock_1/Main rock 1.prefab
+  artifactKey: Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Main rock 1.prefab using Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '03fd9f001dab5e19a06db9dc7ed5f7c2') in 0.022757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 7.075700 seconds.
+  path: Assets/Esho_Assets/Rock_2/rock_2_split.prefab
+  artifactKey: Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/rock_2_split.prefab using Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '461932a54b43df67299d1db0ab6eb912') in 0.027943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 4.130790 seconds.
+  path: Assets/Esho_Assets/Tree_1/ChoppedTree.prefab
+  artifactKey: Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/ChoppedTree.prefab using Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d0de9035327b62571dfc0623a0f9a85') in 0.005961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f5d1a94d1bbd00e99e9c22ec0f34850') in 0.001961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Esho_Assets/Tree_1/new logs.prefab
+  artifactKey: Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/new logs.prefab using Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cd88924bc36d2c7a2be01ee22937832') in 0.025337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 87.818112 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c13505e9c9e668c9ef310bf93b0cd0ee') in 0.005656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 135.206785 seconds.
+  path: Assets/Esho_Assets/PickupArea.prefab
+  artifactKey: Guid(bc49a0106b240314c9707de81c52e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/PickupArea.prefab using Guid(bc49a0106b240314c9707de81c52e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8b907e93b607fc04459115d1767bcd2') in 0.004158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 8.523925 seconds.
+  path: Assets/Esho_Assets/Random/new logs.prefab
+  artifactKey: Guid(dacbab4927337a74a85f61ff848b5196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/new logs.prefab using Guid(dacbab4927337a74a85f61ff848b5196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fed5233604a93a8743211003c52f9be0') in 0.023917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Esho_Assets/Random/rock_001_split.prefab
+  artifactKey: Guid(bbe1f97d7dcad1543b0941c4254fcf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/rock_001_split.prefab using Guid(bbe1f97d7dcad1543b0941c4254fcf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ecfa56b2187ef6e2a6b5b79d3242349f') in 0.013397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Esho_Assets/Random/Split_1.prefab
+  artifactKey: Guid(63ad44a76ddd13c458cd615ef3079af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Split_1.prefab using Guid(63ad44a76ddd13c458cd615ef3079af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48a83049304faedc8b6b582d52aef2b5') in 0.023006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Esho_Assets/Random/Tree2.prefab
+  artifactKey: Guid(47040728e3821d8468ed500b040e86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Tree2.prefab using Guid(47040728e3821d8468ed500b040e86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e7c1f0bd29e0deee6ecaee306e3dad1') in 0.011738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Esho_Assets/Random/untitled2.fbx
+  artifactKey: Guid(958917a34755dfc47bb2e7ea6c528557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/untitled2.fbx using Guid(958917a34755dfc47bb2e7ea6c528557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bab9681efc417246fad1425467541cf7') in 0.034164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Esho_Assets/Random/Rock_1.prefab
+  artifactKey: Guid(a71bd4a8385e78541a8f58aa75533ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Rock_1.prefab using Guid(a71bd4a8385e78541a8f58aa75533ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a796eecf81a67e65fe07d9be0f53495') in 0.022901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Esho_Assets/Random/Rock_01.prefab
+  artifactKey: Guid(6c4f662e797ca304d9f0d7e6f16cbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Rock_01.prefab using Guid(6c4f662e797ca304d9f0d7e6f16cbe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aece61383a47e758833ce035bee3d53f') in 0.021625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Esho_Assets/Random/Split_1_Big.prefab
+  artifactKey: Guid(b1b334cc90a78804ba0d53486bd0c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Split_1_Big.prefab using Guid(b1b334cc90a78804ba0d53486bd0c731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae71acbc351fc623b272307e1cc67a24') in 0.023791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Esho_Assets/Random/untitled1.fbx
+  artifactKey: Guid(138629889f90c8346a1dd6d13b85cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/untitled1.fbx using Guid(138629889f90c8346a1dd6d13b85cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ec83ee4362b82bb4c4a233807642c1c') in 0.058629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Esho_Assets/Random/rock_01_split.fbx
+  artifactKey: Guid(3fb1b0f4338fe9247b91fe4dd2e22f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/rock_01_split.fbx using Guid(3fb1b0f4338fe9247b91fe4dd2e22f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ca2c2e018fb9676127f8e6b9f0abd72') in 0.053571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Esho_Assets/Random/Rock_1_big.prefab
+  artifactKey: Guid(30947509f0fb4fd4e885d0878e15d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Random/Rock_1_big.prefab using Guid(30947509f0fb4fd4e885d0878e15d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea7423d12294624591b43be6d980a6ae') in 0.024958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.492345 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab
+  artifactKey: Guid(6398d43fe79ea0140913dc5530c646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab using Guid(6398d43fe79ea0140913dc5530c646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff33cbfd5540f273b78370cdb748e5a6') in 0.087760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 2.233272 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab
+  artifactKey: Guid(5c755f9bc5253ea418e919994537dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab using Guid(5c755f9bc5253ea418e919994537dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5c100b0076cc20d59800f1e206f6fdd') in 0.033781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab
+  artifactKey: Guid(87ee7299dd44ed747af24dbb91bcd33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR2 Ground Hit.prefab using Guid(87ee7299dd44ed747af24dbb91bcd33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a21fd2c0dd4cd4f89e0ccc6186c1fca2') in 0.025471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab
+  artifactKey: Guid(265d3a5ba69981a4698ceabcedf368b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab using Guid(265d3a5ba69981a4698ceabcedf368b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4c264f1bd71ca6c2aade738a23b67b8e') in 0.028477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 11.085244 seconds.
+  path: Assets/Esho_Assets/Rock_1/Main rock 1.prefab
+  artifactKey: Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Main rock 1.prefab using Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3440b7411c6ff811bbe94cb6e33910bb') in 0.025063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 13.759581 seconds.
+  path: Assets/Esho_Assets/Rock_2/Main rock 2.prefab
+  artifactKey: Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/Main rock 2.prefab using Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca2ab7c46adde5fbcbe78a3ba57f5da8') in 0.021922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 6.671730 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Hit Leaves A (Lit).prefab
+  artifactKey: Guid(ceec7516237b4104b94300043ca39784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Hit Leaves A (Lit).prefab using Guid(ceec7516237b4104b94300043ca39784) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c687c347c04496af9662cbcf88adebad') in 0.047918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Shield Leaves A (Lit).prefab
+  artifactKey: Guid(e1385af346f4e624eb313ec1ea4fcd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/VFX/Cartoon FX Remaster/CFXR Prefabs/Nature/CFXR3 Shield Leaves A (Lit).prefab using Guid(e1385af346f4e624eb313ec1ea4fcd7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7438afb41b22b07f091408182408e6f6') in 0.027953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 11.102461 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c29d1f65c042b067b15b53e1b0373966') in 0.042201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 72.518148 seconds.
+  path: Assets/Esho_Assets/Tree_1/new logs.prefab
+  artifactKey: Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/new logs.prefab using Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b721c7b316df4fffee51bb486317ce9') in 0.015207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c53e2544cd79908459fd463b523a74a1') in 0.026983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 17.189843 seconds.
+  path: Assets/Esho_Assets/Tree_1/ChoppedTree.prefab
+  artifactKey: Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/ChoppedTree.prefab using Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4652a0998f369ae5d4d26c47bf4a0231') in 0.037195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18c786c7243bf900f7b6e24eebbd33c8') in 0.026177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 16.884351 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bebcf466d6faf2fc0378fb0104b5146c') in 0.050955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 39.515976 seconds.
+  path: Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab
+  artifactKey: Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab using Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65452d018e2d3f5f7dec12c9855f7bfa') in 0.018132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Esho_Assets/Tree_2/logs 2.prefab
+  artifactKey: Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/logs 2.prefab using Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f5d1927a1635a4732a0678a377ee47d') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2055cc095342c36c04c103471f2f3a7a') in 0.022472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 6.985847 seconds.
+  path: Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab
+  artifactKey: Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab using Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f70f8c9dec51b9c3eb5a8fc382ac6af') in 0.067376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84895fdfdf7e0bee16172c6bd5466afb') in 0.028537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 10.248197 seconds.
+  path: Assets/Esho_Assets/ToolS/axe.prefab
+  artifactKey: Guid(9e319a5923438594db3dd98f68fc61ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/ToolS/axe.prefab using Guid(9e319a5923438594db3dd98f68fc61ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b990f2f905dced040bae396f32e51698') in 0.003033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Esho_Assets/ToolS/pickaxe.prefab
+  artifactKey: Guid(efda89feecc40f84081a1320b25b9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/ToolS/pickaxe.prefab using Guid(efda89feecc40f84081a1320b25b9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e6eb3c1965293995dc615846b3f872d8') in 0.003222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 126.415333 seconds.
+  path: Assets/Esho_Assets/Rock_1/Main rock 1.prefab
+  artifactKey: Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Main rock 1.prefab using Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40a4fd94bc810b1c78de8a117e0e92b4') in 0.024899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Esho_Assets/Rock_1/Rock_1_split.prefab
+  artifactKey: Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Rock_1_split.prefab using Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc9db2f2d2d828ac4a2b8b86ef5a5077') in 0.012214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 10.278705 seconds.
+  path: Assets/Esho_Assets/Rock_2/Main rock 2.prefab
+  artifactKey: Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/Main rock 2.prefab using Guid(36bc99951619ed743867884aa6c4b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae546cad62e88821159663203d83bc35') in 0.024397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Esho_Assets/Rock_2/rock_2_split.prefab
+  artifactKey: Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_2/rock_2_split.prefab using Guid(16bc4b349a3899a4cbe25de415b0237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87b1c993714a7fe56bbe78ec286a63fb') in 0.014934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 7.386450 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9d0b1870f6f2fb36a435ab367837fa2') in 0.001065 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044338 seconds.
-  path: Assets/Esho_Assets/PickupArea.prefab
-  artifactKey: Guid(bc49a0106b240314c9707de81c52e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Esho_Assets/PickupArea.prefab using Guid(bc49a0106b240314c9707de81c52e2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ecb9058bca75dfc449f12e36d6e13873') in 0.011528 seconds
+  Time since last request: 20.082960 seconds.
+  path: Assets/Esho_Assets/Rock_1/Main rock 1.prefab
+  artifactKey: Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Main rock 1.prefab using Guid(2c37a4074342a5d4a98df95ae08f68c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bee51a3d35a06a3f4f370d246907d5dd') in 0.021720 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Esho_Assets/Rock_1/Rock_1_split.prefab
+  artifactKey: Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Rock_1/Rock_1_split.prefab using Guid(1e3f650909be38040a813b35f6e13f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c4a266374d775818d03f10632fa7b6ea') in 0.018818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 6.966936 seconds.
+  path: Assets/Esho_Assets/Tree_1/ChoppedTree.prefab
+  artifactKey: Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/ChoppedTree.prefab using Guid(c4e0d05247c2d40419c6f44bdda236c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1cdfe30c8fda4525dd0062b4ad882d1d') in 0.020312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Esho_Assets/Tree_1/USE THIS.prefab
+  artifactKey: Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/USE THIS.prefab using Guid(7e9b3d558828cf8428fd2756902d0928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77e71c2de8278a28cf445129fdc8e53e') in 0.024995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Esho_Assets/Tree_1/new logs.prefab
+  artifactKey: Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_1/new logs.prefab using Guid(2982e9dc3a0d29e4b91d86732b78069e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e618354315bfbb2e1a0484396a68d009') in 0.011313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 6.383585 seconds.
+  path: Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab
+  artifactKey: Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/ChoppedTree2.prefab using Guid(73fadf258e596fc498dd446a80a87b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8ec5bc0a1eb47e6fac0bfae8e9451c7') in 0.021099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 121
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Esho_Assets/Tree_2/logs 2.prefab
+  artifactKey: Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/logs 2.prefab using Guid(a3f9c09cfb59ec44f919e9eb72eecd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf76095cd04f859f928d278fa7b7c882') in 0.013194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Esho_Assets/Tree_2/USE THIS.prefab
+  artifactKey: Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esho_Assets/Tree_2/USE THIS.prefab using Guid(32b05806f54b319458f8071e46b4f974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '00ae131bb8d119b4e516e903450296fd') in 0.024128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136

@@ -137,7 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6016880507682877220}
-  - component: {fileID: 4122091716370297805}
+  - component: {fileID: 4738765868498120240}
   m_Layer: 0
   m_Name: ChoppedTree
   m_TagString: Untagged
@@ -162,7 +162,7 @@ Transform:
   - {fileID: 961003240168096363}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4122091716370297805
+--- !u!114 &4738765868498120240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,13 +171,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6586507045141349741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c650d652ec108284db0a7a580bc154be, type: 3}
+  m_Script: {fileID: 11500000, guid: 5259916c4d52e4e48abc15af60501463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   treeTopName: TreeTop
-  logs: {fileID: 3981838086677397234, guid: dacbab4927337a74a85f61ff848b5196, type: 3}
+  logs: {fileID: 3981838086677397234, guid: 2982e9dc3a0d29e4b91d86732b78069e, type: 3}
   vfx: {fileID: 2353600328335939635, guid: ceec7516237b4104b94300043ca39784, type: 3}
-  destroyDelay: 3
+  destroyDelay: 5
   logsDestroyDelay: 10
 --- !u!1 &6994259851678464732
 GameObject:

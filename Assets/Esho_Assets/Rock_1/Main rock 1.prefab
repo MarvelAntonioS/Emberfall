@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7322643240997947913, guid: a71bd4a8385e78541a8f58aa75533ad9, type: 3}
       propertyPath: m_Name
-      value: Rock_1_big
+      value: Main rock 1
       objectReference: {fileID: 0}
     - target: {fileID: 7322643240997947913, guid: a71bd4a8385e78541a8f58aa75533ad9, type: 3}
       propertyPath: m_TagString
@@ -75,14 +75,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7322643240997947913, guid: a71bd4a8385e78541a8f58aa75533ad9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 64870633378511555}
+      addedObject: {fileID: 4649053198243729345}
   m_SourcePrefab: {fileID: 100100000, guid: a71bd4a8385e78541a8f58aa75533ad9, type: 3}
 --- !u!1 &4860217712946054318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7322643240997947913, guid: a71bd4a8385e78541a8f58aa75533ad9, type: 3}
   m_PrefabInstance: {fileID: 2805099875047247527}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &64870633378511555
+--- !u!114 &4649053198243729345
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,13 +91,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4860217712946054318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84b60a96a8ead1d439da19a126c1c8c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 63a4ecdcdd921ce4383ace765e560f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChoppedObject: {fileID: 3772758377241541406, guid: bbe1f97d7dcad1543b0941c4254fcf88, type: 3}
-  vfx: {fileID: 8953264713256607884, guid: 87ee7299dd44ed747af24dbb91bcd33b, type: 3}
+  ChoppedObject: {fileID: 3772758377241541406, guid: 1e3f650909be38040a813b35f6e13f42, type: 3}
+  vfx: {fileID: 4021103657954561942, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
   delay: 0.45
-  respawnTime: 7
+  respawnTime: 10
   initialForce: 5
   fallDirection: {x: 1, y: -0.5, z: 0}
-  requiredToolTag: Pickaxe

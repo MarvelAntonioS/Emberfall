@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3247987053231629810}
   - component: {fileID: 809893490304382958}
   - component: {fileID: 1657645231622003561}
-  - component: {fileID: 6602644359516029837}
+  - component: {fileID: 6983968120871067718}
   m_Layer: 0
   m_Name: Main rock 2
   m_TagString: Pickaxe
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 33ebf3440b12ec245bd008cd464f8d9a, type: 3}
---- !u!114 &6602644359516029837
+--- !u!114 &6983968120871067718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,13 +116,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5382547746647130991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84b60a96a8ead1d439da19a126c1c8c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 63a4ecdcdd921ce4383ace765e560f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ChoppedObject: {fileID: 5426631360728052495, guid: 16bc4b349a3899a4cbe25de415b0237d, type: 3}
-  vfx: {fileID: 8953264713256607884, guid: 87ee7299dd44ed747af24dbb91bcd33b, type: 3}
+  vfx: {fileID: 4021103657954561942, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
   delay: 0.45
   respawnTime: 10
   initialForce: 5
   fallDirection: {x: 1, y: -0.5, z: 0}
-  requiredToolTag: Pickaxe
