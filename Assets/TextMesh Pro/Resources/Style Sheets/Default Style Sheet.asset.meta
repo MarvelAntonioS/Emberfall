@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
 guid: f952c082cb03451daed3ee968ac6c63e
 timeCreated: 1432805430
+========
+guid: af65c0942482e46aeb256506726ff0f7
+timeCreated: 1508924250
+>>>>>>>> esho:Assets/Esho_Assets/Random/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat.meta
 licenseType: Store
 NativeFormatImporter:
   userData: 
