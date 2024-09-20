@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChoppedObject: {fileID: 2009437955893223410, guid: 73fadf258e596fc498dd446a80a87b6a, type: 3}
-  vfx: {fileID: 2353600328335939635, guid: ceec7516237b4104b94300043ca39784, type: 3}
+  vfx: {fileID: 2353600328335939635, guid: 81c0ab1004b8f484aa20d3d3df9c906f, type: 3}
   delay: 0.45
   respawnTime: 10
   initialForce: 5
