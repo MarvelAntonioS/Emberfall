@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 7236435cea222df41b87e15d2033e966
+<<<<<<<< HEAD:Assets/PauseMenuCode.cs.meta
+guid: d84c271870459d94fb56d73190790677
+========
+guid: 63924c027309abb45978dcff01a1f667
+>>>>>>>> esho:Assets/Esho_Assets/Scripts/Hitable.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
