@@ -1,23 +1,13 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Arch.fbx.meta
 guid: 48120bce6f38440308654b36ecddead8
-========
-guid: 72b75993d17819c4eb1c16bac0635014
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/arrow.fbx.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Arch.fbx.meta
     materialImportMode: 0
     materialName: 1
     materialSearch: 1
-========
-    materialImportMode: 2
-    materialName: 0
-    materialSearch: 2
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/arrow.fbx.meta
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
@@ -47,7 +37,6 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Arch.fbx.meta
     addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
@@ -56,16 +45,6 @@ ModelImporter:
     importBlendShapes: 0
     importCameras: 0
     importLights: 0
-========
-    addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importPhysicalCameras: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/arrow.fbx.meta
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -99,11 +78,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Arch.fbx.meta
   importAnimation: 0
-========
-  importAnimation: 1
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/arrow.fbx.meta
   humanDescription:
     serializedVersion: 3
     human: []
@@ -122,11 +97,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Arch.fbx.meta
   animationType: 0
-========
-  animationType: 2
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/arrow.fbx.meta
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1

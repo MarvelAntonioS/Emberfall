@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/MovementController.cs.meta
 guid: 0d8fb0c6e9d10ca42b0683dcd97ae8b6
-========
-guid: 9a1dbad11412c01498397a83830488fa
->>>>>>>> main:Assets/CharacterSwitcher.cs.meta
-=======
-<<<<<<<< HEAD:Assets/PauseMenuCode.cs.meta
-guid: 7236435cea222df41b87e15d2033e966
-========
-guid: a6feb54e1538b59418f4db3a393e8156
->>>>>>>> main:Assets/MovementController.cs.meta
->>>>>>> main
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

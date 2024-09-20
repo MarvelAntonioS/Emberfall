@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Decimate/Grid Master/FBX/GM-Barrier.fbx.meta
 guid: d6250de25d4a24abf96542cf5aaaa2ee
-========
-guid: 3500b7d8ea856c34a956bc8359507c0d
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/ammo_crate_withLid.fbx.meta
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -11,8 +7,8 @@ ModelImporter:
   materials:
     materialImportMode: 2
     materialName: 0
-    materialSearch: 2
-    materialLocation: 0
+    materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

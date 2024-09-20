@@ -8,11 +8,6 @@ public class MovementController : MonoBehaviour
     //input fields
     private ThirdPersonMovementSettings playerActionsAsset; 
     private InputAction move;
-<<<<<<< HEAD
-=======
-    private InputAction sprint; 
-    private bool YesRun; 
->>>>>>> main
 
     //movement fields
     private Rigidbody rb; //Reference to rigidbody for player 
@@ -26,11 +21,7 @@ public class MovementController : MonoBehaviour
 
     [SerializeField] private Camera playerCamera; //To place the main camera 
 
-<<<<<<< HEAD
     //[SerializeField] private Animator animator;
-=======
-    [SerializeField] private Animator animator;
->>>>>>> main
     
 
     //When the game starts it will get the rigidbody component and initialze it 
@@ -40,11 +31,7 @@ public class MovementController : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody>();
         playerActionsAsset = new ThirdPersonMovementSettings();
-<<<<<<< HEAD
         //animator = this.GetComponent<Animator>();
-=======
-        animator = this.GetComponent<Animator>();
->>>>>>> main
     }
 
 
@@ -54,18 +41,8 @@ public class MovementController : MonoBehaviour
         //move variable will receive the inputs of the Action "Move" from Action Maps "Player"
         move = playerActionsAsset.Player.Move;
 
-<<<<<<< HEAD
         //When a key input such as WASD is pressed a function is called
         move.performed += debug;
-=======
-        //variable can be used to listen for "shift" key input
-        sprint = playerActionsAsset.Player.Sprinting; 
-        sprint.performed += increaseMaxSpeed; 
-
-        //When a key input such as WASD is pressed a function is called
-        move.performed += debug;
-        sprint.performed += debug; 
->>>>>>> main
 
         //Enables the Player input action 
         playerActionsAsset.Player.Enable();
@@ -76,34 +53,18 @@ public class MovementController : MonoBehaviour
     {
         //When a key input such as WASD is pressed a function is called
         move.performed -= debug;
-<<<<<<< HEAD
-=======
-        sprint.performed -= debug;
->>>>>>> main
 
         //Disable the Player input action 
         playerActionsAsset.Player.Disable();
     }
 
-<<<<<<< HEAD
-=======
-    void Start()
-    {
-        YesRun = false;
-    }
-
->>>>>>> main
     //Like Update(), but primarily used for physics of Unity. Updates each frame
     private void FixedUpdate()
     {
         physicsMovement(); //Player movement 
         LookAt(); //Camera direction movement 
         
-<<<<<<< HEAD
         //animator.SetFloat("speed", rb.velocity.magnitude / maxSpeed);
-=======
-        animator.SetFloat("speed", rb.velocity.magnitude / maxSpeed);
->>>>>>> main
     }
 
     //This function controls the movement of the object using the Unity's built-in
@@ -181,25 +142,4 @@ public class MovementController : MonoBehaviour
         var control = context.control;
         Debug.Log("Input was triggered by: " + control.displayName);
     }
-<<<<<<< HEAD
-=======
-
-    private void increaseMaxSpeed(InputAction.CallbackContext context)
-    {
-        var control = context.control;
-        if (control.displayName == "Shift")
-        {
-            if(YesRun == false)
-            {
-                maxSpeed = 10;
-                YesRun = true;
-            }
-            else
-            {
-                maxSpeed = 5;
-                YesRun = false;
-            }
-        }
-    }
->>>>>>> main
 }

@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Jammo-Character/Animations/Default/a_Idle.anim.meta
 guid: 6b64f85c5ee58984a8e4d87ffdce9b5d
-========
-guid: 6afb47582cad5144480050fc831a435c
->>>>>>>> main:Assets/KayKit/Characters/Animations/Combat/1H_Melee/1H_Melee_Attack_Chop.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

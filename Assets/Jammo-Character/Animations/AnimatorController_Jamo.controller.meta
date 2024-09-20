@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Jammo-Character/Animations/AnimatorController_Jamo.controller.meta
 guid: 535d24752e3d6444da644e79e90ec2ca
-========
-guid: 076c93192e7fbea4ba9f263ce3e86bb0
->>>>>>>> main:Assets/KayKit/Characters/Animations/Movement/rogue_hooded.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

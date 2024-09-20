@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Animations/ThirdPersonAnimatio.controller.meta
 guid: c9d0bc95a6a26a241ae0b7d56a9f03ec
-========
-guid: f317c744b6a44d347bf51ec96eb055ae
->>>>>>>> main:Assets/Animation/Knight.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000

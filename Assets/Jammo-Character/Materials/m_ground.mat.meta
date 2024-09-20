@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Jammo-Character/Materials/m_ground.mat.meta
 guid: ac02e0546055b854f8600e1708139ff8
-========
-guid: 247eb7ec69249e0448d5ceea166c7071
->>>>>>>> main:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Materials/URP/barbarian_texture.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
