@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &7279890231615676232
+--- !u!1001 &4885110899015918592
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.81027
+      value: 17.53
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.0962257
+      value: 9.29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -56,29 +56,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree2 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
+      propertyPath: m_TagString
+      value: Axe
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1207400590896832030}
+      addedObject: {fileID: 7764219092613978506}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6137585588174974163}
+      addedObject: {fileID: 8488554567569628742}
   m_SourcePrefab: {fileID: 100100000, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
---- !u!1 &7621836910717362713 stripped
+--- !u!1 &5695381906216360273 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e704b3fdd8c93d74c9e7a7af5e9334d5, type: 3}
-  m_PrefabInstance: {fileID: 7279890231615676232}
+  m_PrefabInstance: {fileID: 4885110899015918592}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1207400590896832030
+--- !u!114 &7764219092613978506
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7621836910717362713}
+  m_GameObject: {fileID: 5695381906216360273}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84b60a96a8ead1d439da19a126c1c8c0, type: 3}
@@ -88,15 +92,16 @@ MonoBehaviour:
   vfx: {fileID: 2353600328335939635, guid: ceec7516237b4104b94300043ca39784, type: 3}
   delay: 0.45
   respawnTime: 10
-  initialForce: 5
+  initialForce: 7
   fallDirection: {x: 1, y: -0.5, z: 0}
---- !u!64 &6137585588174974163
+  requiredToolTag: Axe
+--- !u!64 &8488554567569628742
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7621836910717362713}
+  m_GameObject: {fileID: 5695381906216360273}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
