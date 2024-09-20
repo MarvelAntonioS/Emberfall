@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Decimate.meta
 guid: d2406b32f63b05f439b1144bb880bc9e
+========
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>>> main:Assets/TextMesh Pro.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

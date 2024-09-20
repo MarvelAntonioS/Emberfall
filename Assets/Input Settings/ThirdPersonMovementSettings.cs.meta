@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Input Settings/ThirdPersonMovementSettings.cs.meta
 guid: f73249b6a8117094eb72a6594d224eb5
+========
+guid: d84c271870459d94fb56d73190790677
+>>>>>>>> main:Assets/PauseMenuCode.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

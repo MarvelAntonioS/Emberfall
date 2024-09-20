@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Jammo-Character/Textures/mixbot1.json.meta
 guid: c3a8ef644c409ed4697012135caec542
+========
+guid: d82c1b31c7e74239bff1220585707d2b
+timeCreated: 1425440388
+licenseType: Store
+>>>>>>>> main:Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
 TextScriptImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
