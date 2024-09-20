@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7278187272345676141, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7278187272345676141, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_TagString
@@ -82,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4830262782878753594, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4830262782878753594, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_TagString
@@ -90,7 +90,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8077148735506894232, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8077148735506894232, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       propertyPath: m_TagString
@@ -111,7 +111,7 @@ PrefabInstance:
       addedObject: {fileID: 190909902297919965}
     - targetCorrespondingSourceObject: {fileID: -7278187272345676141, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 445307461585274728}
+      addedObject: {fileID: 2871294320859723900}
     - targetCorrespondingSourceObject: {fileID: 4830262782878753594, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6963343717786736087}
@@ -123,7 +123,7 @@ PrefabInstance:
       addedObject: {fileID: 8505433049133946612}
     - targetCorrespondingSourceObject: {fileID: 4830262782878753594, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4485054460538786417}
+      addedObject: {fileID: 3213315803352696311}
     - targetCorrespondingSourceObject: {fileID: 8077148735506894232, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2389169927421427510}
@@ -135,7 +135,7 @@ PrefabInstance:
       addedObject: {fileID: 5842900824077346865}
     - targetCorrespondingSourceObject: {fileID: 8077148735506894232, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2885819300557855603}
+      addedObject: {fileID: 6621648378772148834}
   m_SourcePrefab: {fileID: 100100000, guid: eaab3a60759f6da4bbcf75affbc80819, type: 3}
 --- !u!1 &2413245821842281776 stripped
 GameObject:
@@ -212,7 +212,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.0315137
   m_Center: {x: 0.14380455, y: -1.2004476, z: 0.043010235}
---- !u!114 &445307461585274728
+--- !u!114 &2871294320859723900
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2413245821842281776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c1de2eb9f1582419084d6448247db9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2649a4d22d8556e4b9ed99050ea95b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.1
@@ -303,7 +303,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.3964024
   m_Center: {x: -0.03317213, y: 1.0267484, z: -0.022449493}
---- !u!114 &2885819300557855603
+--- !u!114 &6621648378772148834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5446248946532453947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c1de2eb9f1582419084d6448247db9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2649a4d22d8556e4b9ed99050ea95b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.1
@@ -394,7 +394,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.1053267
   m_Center: {x: 0.11328721, y: -0.23233104, z: 0.02477467}
---- !u!114 &4485054460538786417
+--- !u!114 &3213315803352696311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8686237643656978585}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25c1de2eb9f1582419084d6448247db9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2649a4d22d8556e4b9ed99050ea95b3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   amplitude: 0.1
