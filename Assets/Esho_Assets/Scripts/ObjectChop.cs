@@ -46,15 +46,12 @@ public class ObjectChopped : MonoBehaviour, Hitable
         Rigidbody treeTopRb = choppedInstance.GetComponentInChildren<Rigidbody>();
         if (treeTopRb != null)
         {
-            // Adjust rigidbody properties
-            treeTopRb.mass = 100f; // Increase mass
-            treeTopRb.drag = 0.1f; // Lower drag
-            treeTopRb.angularDrag = 0.05f; // Lower angular drag
+            treeTopRb.mass = 100f;
+            treeTopRb.drag = 0.1f;
+            treeTopRb.angularDrag = 0.05f;
 
-            // Apply initial force
             treeTopRb.AddForce(fallDirection.normalized * initialForce, ForceMode.Impulse);
 
-            // Add some torque for rotation
             treeTopRb.AddTorque(Random.insideUnitSphere * initialForce, ForceMode.Impulse);
         }
     }
