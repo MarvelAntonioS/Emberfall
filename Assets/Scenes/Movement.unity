@@ -792,7 +792,6 @@ GameObject:
   - component: {fileID: 310058512}
   - component: {fileID: 310058511}
   - component: {fileID: 310058510}
-  - component: {fileID: 310058513}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -867,21 +866,6 @@ Transform:
   - {fileID: 627836522}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &310058513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310058509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d8fb0c6e9d10ca42b0683dcd97ae8b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementForce: 2
-  maxSpeed: 5
-  playerCamera: {fileID: 963194227}
 --- !u!1 &313451326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
@@ -946,27 +930,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 313451326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d8fb0c6e9d10ca42b0683dcd97ae8b6, type: 3}
+  m_Script: {fileID: 11500000, guid: f887df31a01496f4299304f50c384bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementForce: 1
   maxSpeed: 5
   playerCamera: {fileID: 963194227}
---- !u!114 &313451332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  animator: {fileID: 313451333}
+--- !u!95 &313451333 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
+  m_PrefabInstance: {fileID: 596899560}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313451326}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 417cc3b64ac0f54479ac4b2ec8cac1c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  rb: {fileID: 0}
-  maxSpeed: 5
 --- !u!1 &316761072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,9 +1507,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 313451332}
-    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 313451331}
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 82a2914d8f86c62488456950c8330e38, type: 3}
       insertIndex: -1
@@ -1752,7 +1724,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 32f49231990f927449b811621035068b, type: 2}
+  - {fileID: 2100000, guid: bd9edabcce276974abecbd0606264bed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2608,10 +2580,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1341308248}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7236435cea222df41b87e15d2033e966, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cf68623577caa240ba42048d2e63936, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseMenu: {fileID: 531857418}
+  PauseMenu: {fileID: 1725201094}
 --- !u!4 &1341308250
 Transform:
   m_ObjectHideFlags: 0
@@ -3153,7 +3125,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: efeb0e4ec272346448e9c398078d5b36, type: 2}
+  - {fileID: 2100000, guid: 78f4b3d156c54444088298e7840b8d32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
