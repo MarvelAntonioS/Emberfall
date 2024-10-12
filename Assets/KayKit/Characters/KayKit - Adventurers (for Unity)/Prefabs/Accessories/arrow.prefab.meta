@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab.meta
-guid: b229e911d683e5945be4c3af88b30a70
-========
-guid: 81f5c193fe0ec3248901ee5a1f982d94
->>>>>>>> esho:Assets/Esho_Assets/Random/Player.prefab.meta
+guid: 371b103053ea3ae41a71fe9baa67868f
 PrefabImporter:
   externalObjects: {}
   userData: 

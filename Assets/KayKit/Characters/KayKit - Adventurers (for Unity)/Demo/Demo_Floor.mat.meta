@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Demo/Demo_Floor.mat.meta
-guid: deae5da3e476e4b4cb42f5eb97a5968b
-========
-guid: 886ecf0ee44718246aa083d8aad49b79
->>>>>>>> esho:Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat.meta
+guid: a4df11119d0e4fa4ca5592cb514e80f0
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

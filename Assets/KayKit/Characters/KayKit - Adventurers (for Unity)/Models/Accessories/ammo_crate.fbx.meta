@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Models/Accessories/ammo_crate.fbx.meta
-guid: e262c652320a9ab4ca488d1de1cee2c2
-========
-guid: 4f9bfe52393f96849b4e83a7d4f816e2
->>>>>>>> esho:Assets/Esho_Assets/Random/log.fbx.meta
+guid: 1e9340f883435a14da3941dad6da396d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
