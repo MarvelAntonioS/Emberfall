@@ -6,30 +6,30 @@ using UnityEngine.InputSystem;
 public class MovementController : MonoBehaviour
 {
     //input fields
-    private ThirdPersonMovementSettings playerActionsAsset; 
-    private InputAction move;
-    private InputAction sprint; 
-    private bool YesRun; 
+    public ThirdPersonMovementSettings playerActionsAsset; 
+    public InputAction move;
+    public InputAction sprint; 
+    public bool YesRun; 
 
     //movement fields
-    private Rigidbody rb; //Reference to rigidbody for player 
-    [SerializeField] private float movementForce = 1f;
+    public Rigidbody rb; //Reference to rigidbody for player 
+    [SerializeField] public float movementForce = 1f;
 
     //Code will be used if we plan to make the player jump 
     //[SerializeField] private float jumpForce = 5f;
 
-    [SerializeField] private float maxSpeed = 5f; //To control the speed of the object 
-    private Vector3 forceDirection = Vector3.zero; //Variable used to apply force on an object
+    [SerializeField] public float maxSpeed = 5f; //To control the speed of the object 
+    public Vector3 forceDirection = Vector3.zero; //Variable used to apply force on an object
 
-    [SerializeField] private Camera playerCamera; //To place the main camera 
+    [SerializeField] public Camera playerCamera; //To place the main camera 
 
-    [SerializeField] private Animator animator;
+    [SerializeField] public Animator animator;
     
 
     //When the game starts it will get the rigidbody component and initialze it 
     //to the variable rb. Then create a new instance of the Input system as well as
     //get the component of the animator for animation of the object. 
-    private void Awake()
+    public void Awake()
     {
         rb = this.GetComponent<Rigidbody>();
         playerActionsAsset = new ThirdPersonMovementSettings();
@@ -38,7 +38,7 @@ public class MovementController : MonoBehaviour
 
 
     //When the object is enabled 
-    private void OnEnable()
+    public void OnEnable()
     {
         //move variable will receive the inputs of the Action "Move" from Action Maps "Player"
         move = playerActionsAsset.Player.Move;
@@ -56,7 +56,7 @@ public class MovementController : MonoBehaviour
     }
     
     //When the object is disabled 
-    private void OnDisable()
+    public void OnDisable()
     {
         //When a key input such as WASD is pressed a function is called
         move.performed -= debug;

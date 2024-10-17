@@ -5988,10 +5988,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4084924991782018806, guid: 7e9b3d558828cf8428fd2756902d0928, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4008939775053746875, guid: 7e9b3d558828cf8428fd2756902d0928, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1050304895}
   m_SourcePrefab: {fileID: 100100000, guid: 7e9b3d558828cf8428fd2756902d0928, type: 3}
 --- !u!4 &857533533 stripped
 Transform:
@@ -7133,6 +7137,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 494338, guid: ea8ec36c7f9b40f4faa40bf80afec5a3, type: 3}
   m_PrefabInstance: {fileID: 1038182260}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1050304889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4008939775053746875, guid: 7e9b3d558828cf8428fd2756902d0928, type: 3}
+  m_PrefabInstance: {fileID: 857533526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1050304895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050304889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcc2ebaf55db0f47a7a6b1af3dd877e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChoppedObject: {fileID: 3981838086677397234, guid: 2982e9dc3a0d29e4b91d86732b78069e, type: 3}
+  delay: 0.45
+  respawnTime: 10
+  initialForce: 5
+  fallDirection: {x: 1, y: -0.5, z: 0}
 --- !u!1 &1058383664
 GameObject:
   m_ObjectHideFlags: 0
@@ -7918,12 +7944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4334c19e247ef2a408cab63613fe4c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChoppedObject: {fileID: 3772758377241541406, guid: 1e3f650909be38040a813b35f6e13f42, type: 3}
-  vfx: {fileID: 0}
-  delay: 0.45
-  respawnTime: 10
-  initialForce: 5
-  fallDirection: {x: 1, y: -0.5, z: 0}
 --- !u!1001 &1117722170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12904,8 +12924,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f887df31a01496f4299304f50c384bbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 360120df-e52b-4191-8503-a262898bf0a0
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  sprint:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 72a69c1a-0894-4c4f-ad40-7f0641c5c347
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  YesRun: 0
+  rb: {fileID: 0}
   movementForce: 1
   maxSpeed: 5
+  forceDirection: {x: 0, y: 0, z: 0}
   playerCamera: {fileID: 1058383666}
   animator: {fileID: 1844787322}
 --- !u!136 &1844787320
