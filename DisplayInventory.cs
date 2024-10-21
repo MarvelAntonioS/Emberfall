@@ -131,6 +131,22 @@ public class DisplayInventory : MonoBehaviour
             Destroy(emptyMessage);
         }
     }
+
+    //Remove item and update UI
+    public void RemoveItemFromUI(Item item)
+    {
+        // Find the slot corresponding to the item
+        InventorySlot slot = inventory.Container.Items.Find(i => i.item.Id == item.Id);
+        if (slot != null)
+        {
+            // Remove the item from the inventory data
+            inventory.RemoveItem(item);
+
+            // Refresh the UI to reflect the change
+            UpdateDisplay();
+        }
+    }
+
 }
 
 
