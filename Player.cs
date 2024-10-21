@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class Player : MonoBehaviour
 {
     public InventoryObject inventory;
     // Start is called before the first frame update
+    private string playerId = "player1"; // Unique ID for the player
+
+
     public void OnTriggerEnter(Collider other)
     {
         var item = other.GetComponent<GroundItem>();
@@ -15,17 +20,22 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-    private void Update()
+
+ 
+
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)) // Save to Firebase
         {
-            inventory.Save();
+            inventory.SaveToFirebase(playerId);
         }
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+
+        if (Input.GetKeyDown(KeyCode.KeypadEnter)) // Load from Firebase
         {
-            inventory.Load();
+            inventory.LoadFromFirebase(playerId);
         }
     }
+
     private void OnApplicationQuit()
     {
         inventory.Container.Items.Clear();
