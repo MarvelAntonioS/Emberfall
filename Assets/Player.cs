@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     public Collider collider1;
 
     // Start is called before the first frame update   
-
     void Start()
     {
         // Check if the player has a BoxCollider component attached
