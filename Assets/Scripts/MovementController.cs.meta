@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/MovementController.cs.meta
+guid: f887df31a01496f4299304f50c384bbd
+========
+guid: 5259916c4d52e4e48abc15af60501463
+>>>>>>>> esho:Assets/Esho_Assets/Scripts/DestroyTreeTop.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

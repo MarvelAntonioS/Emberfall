@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/CharacterSwitcher.cs.meta
+guid: 2e237b62729ccfb4c8b523c2f69574c6
+========
+guid: 25c1de2eb9f1582419084d6448247db9
+>>>>>>>> esho:Assets/Esho_Assets/Scripts/Bounce.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

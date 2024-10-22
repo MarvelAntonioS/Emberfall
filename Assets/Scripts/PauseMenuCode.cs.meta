@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/PauseMenuCode.cs.meta
+guid: 9cf68623577caa240ba42048d2e63936
+========
+guid: 63924c027309abb45978dcff01a1f667
+>>>>>>>> esho:Assets/Esho_Assets/Scripts/Hitable.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
