@@ -7479,15 +7479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenu: {fileID: 1138410836}
-  menu:
-    m_Name: 
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 49a5a00a-6c5e-4575-a384-32425cd7a640
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
 --- !u!1001 &1038182260
 PrefabInstance:
   m_ObjectHideFlags: 0
