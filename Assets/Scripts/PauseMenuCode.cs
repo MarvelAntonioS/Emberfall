@@ -24,6 +24,7 @@ public class PauseMenuCode : MonoBehaviour
     {
         //menu can listen to key inputs 
         menu = playerActionsAsset.Player.Menu;
+        //menu = playerActionsAsset.Player.Move;
 
         //Checks if a key input from action menu has been pressed 
         menu.performed += Keypressed;
@@ -49,6 +50,7 @@ public class PauseMenuCode : MonoBehaviour
         //Set the gameobject to false.
         //Essentially, the menu is currently disabled on Start()
         PauseMenu.SetActive(false);
+        //PauseMenu.SetActive(true); //Incorrect for of unit test 
     }
 
     //This function will change the SetActive of the gameobject 
@@ -63,6 +65,7 @@ public class PauseMenuCode : MonoBehaviour
     {
         Debug.Log("Input was triggered by: " + keyName);
 
+        //if (keyName == "A")
         if (keyName == "Esc")
         {
             if(isPaused)
@@ -80,6 +83,7 @@ public class PauseMenuCode : MonoBehaviour
     {
         PauseMenu.SetActive(true);
         Time.timeScale = 0f; //stops updates such as animations and physics 
+        //Time.timeScale = 1f; //Incorrect code for test
         isPaused = true;
     }
 
@@ -90,3 +94,4 @@ public class PauseMenuCode : MonoBehaviour
         isPaused = false; 
     }
 }
+
