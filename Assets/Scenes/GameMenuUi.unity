@@ -4022,6 +4022,10 @@ MonoBehaviour:
   placementMask:
     serializedVersion: 2
     m_Bits: 256
+  selectedObjectPrefab: {fileID: 2950873129325862713, guid: 2a4627dd4b1bc494b8a2c9b027995092, type: 3}
+  currentSelectedObject: {fileID: 2950873129325862713, guid: 2a4627dd4b1bc494b8a2c9b027995092, type: 3}
+  isPlacing: 0
+  isMovingObject: 0
 --- !u!4 &1670595792
 Transform:
   m_ObjectHideFlags: 0

@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class ObjectPlacementManager : MonoBehaviour
 {
     public Camera mainCamera;  // Main camera for raycasting
     public LayerMask placementMask;  // Mask for valid placement areas
-    private GameObject selectedObjectPrefab;  // The prefab to instantiate
-    private GameObject currentSelectedObject = null;  // Track the selected object
-    private bool isPlacing = false;  // Flag to indicate placement mode
-    private bool isMovingObject = false;  // Flag to indicate moving mode
+    public GameObject selectedObjectPrefab;  // The prefab to instantiate
+    public GameObject currentSelectedObject = null;  // Track the selected object
+    public bool isPlacing = false;  // Flag to indicate placement mode
+    public bool isMovingObject = false;  // Flag to indicate moving mode
 
     // Dictionary to store different prefabs
-    private Dictionary<string, GameObject> prefabLibrary = new Dictionary<string, GameObject>();
+    public Dictionary<string, GameObject> prefabLibrary = new Dictionary<string, GameObject>();
 
     void Start()
     {
@@ -22,6 +21,11 @@ public class ObjectPlacementManager : MonoBehaviour
     }
 
     void Update()
+    {
+        HandleInput(); // Move the input handling to a separate method for clarity
+    }
+
+    public void HandleInput()
     {
         // Step 1: Select a prefab from inventory (Example: press '1', '2', '3' to select)
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -79,13 +83,12 @@ public class ObjectPlacementManager : MonoBehaviour
         // Step 5: Remove the selected object with 'R' key
         if (currentSelectedObject != null && Input.GetKeyDown(KeyCode.R))
         {
-            Destroy(currentSelectedObject);
-            currentSelectedObject = null;  // Clear the selection
+            RemoveCurrentObject(); // Call the remove method
         }
     }
 
     // Method to select a prefab based on name
-    void SelectObject(string prefabName)
+    public void SelectObject(string prefabName)
     {
         if (prefabLibrary.ContainsKey(prefabName))
         {
@@ -100,21 +103,30 @@ public class ObjectPlacementManager : MonoBehaviour
     }
 
     // Method to load all prefabs from the "PlaceablePrefabs" folder
-    void LoadAllPrefabs()
+    public void LoadAllPrefabs()
     {
         GameObject[] loadedPrefabs = Resources.LoadAll<GameObject>("PlaceablePrefabs");
 
         foreach (GameObject prefab in loadedPrefabs)
         {
-            prefabLibrary.Add(prefab.name, prefab);
-            Debug.Log("Loaded prefab: " + prefab.name);
+            // Add to dictionary only if the key doesn't exist
+            if (!prefabLibrary.ContainsKey(prefab.name))
+            {
+                prefabLibrary.Add(prefab.name, prefab);
+                Debug.Log("Loaded prefab: " + prefab.name);
+            }
+            else
+            {
+                Debug.LogWarning("Prefab with the same name already exists: " + prefab.name);
+            }
         }
 
         Debug.Log("Total prefabs loaded: " + prefabLibrary.Count);
     }
 
+
     // Method to place the selected object
-    void PlaceObject(Vector3 position, Vector3 surfaceNormal)
+    public void PlaceObject(Vector3 position, Vector3 surfaceNormal)
     {
         if (selectedObjectPrefab != null)
         {
@@ -127,6 +139,16 @@ public class ObjectPlacementManager : MonoBehaviour
         else
         {
             Debug.LogError("No object selected for placement!");
+        }
+    }
+
+    // Method to remove the selected object
+    public void RemoveCurrentObject()
+    {
+        if (currentSelectedObject != null)
+        {
+            Destroy(currentSelectedObject);
+            currentSelectedObject = null;  // Clear the selection
         }
     }
 }
