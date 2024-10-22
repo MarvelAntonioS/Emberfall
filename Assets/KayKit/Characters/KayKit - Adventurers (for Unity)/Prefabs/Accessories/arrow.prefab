@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
 --- !u!1 &919132149155446097
-========
---- !u!1 &4680757731160225450
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,36 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
   - component: {fileID: -8679921383154817045}
   - component: {fileID: -5754084199372789682}
   - component: {fileID: -7511558181221131132}
   m_Layer: 0
   m_Name: arrow
-========
-  - component: {fileID: 4680757731159730826}
-  - component: {fileID: 4680757731156830890}
-  - component: {fileID: 4680757731157960810}
-  - component: {fileID: 7495719641570791432}
-  m_Layer: 0
-  m_Name: Rock_03
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
 --- !u!4 &-8679921383154817045
-========
---- !u!4 &4680757731159730826
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
   m_GameObject: {fileID: 919132149155446097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
@@ -52,41 +34,20 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &-5754084199372789682
-========
-  m_GameObject: {fileID: 4680757731160225450}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4680757731156830890
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
   m_GameObject: {fileID: 919132149155446097}
   m_Mesh: {fileID: 4019234525060620036, guid: 72b75993d17819c4eb1c16bac0635014, type: 3}
 --- !u!23 &-7511558181221131132
-========
-  m_GameObject: {fileID: 4680757731160225450}
-  m_Mesh: {fileID: 4300000, guid: 14125b656fb71fd4d9d65bfe344107ad, type: 3}
---- !u!23 &4680757731157960810
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
   m_GameObject: {fileID: 919132149155446097}
-========
-  m_GameObject: {fileID: 4680757731160225450}
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -100,11 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
   - {fileID: 2100000, guid: 3eca9ec1c994ddc4c94fb5e18dca4bff, type: 2}
-========
-  - {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,20 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Prefabs/Accessories/arrow.prefab
-========
---- !u!64 &7495719641570791432
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4680757731160225450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 14125b656fb71fd4d9d65bfe344107ad, type: 3}
->>>>>>>> esho:Assets/SimpleNaturePack/Prefabs/Rock_03.prefab
