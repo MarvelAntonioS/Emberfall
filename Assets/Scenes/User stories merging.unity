@@ -7187,6 +7187,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenu: {fileID: 1138410836}
+  menu:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 89545aad-bb4b-4bd3-818a-35e9a33b4528
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1001 &1038182260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8172,7 +8181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4334c19e247ef2a408cab63613fe4c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChoppedObject: {fileID: 0}
+  ChoppedObject: {fileID: 3772758377241541406, guid: 1e3f650909be38040a813b35f6e13f42, type: 3}
   delay: 0.45
   respawnTime: 10
   initialForce: 5
@@ -13428,7 +13437,7 @@ MonoBehaviour:
     m_SingletonActionBindings: []
     m_Flags: 0
   YesRun: 0
-  rb: {fileID: 0}
+  rb: {fileID: 1844787321}
   movementForce: 1
   maxSpeed: 5
   forceDirection: {x: 0, y: 0, z: 0}

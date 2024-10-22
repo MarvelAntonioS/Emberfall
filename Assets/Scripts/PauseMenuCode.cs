@@ -9,19 +9,18 @@ public class PauseMenuCode : MonoBehaviour
 {
     public GameObject PauseMenu; //new gameobject variable 
     public static bool isPaused; //Boolean variable that can used in other classes in the project
-    private ThirdPersonMovementSettings playerActionsAsset; //For the input system 
-    private InputAction menu; //new input action variable 
-   
+    public ThirdPersonMovementSettings playerActionsAsset; //For the input system 
+    public InputAction menu; //new input action variable 
    
     //When the game starts 
-    private void Awake()
+    public void Awake()
     {
         //Create a new instance of the input system 
         playerActionsAsset = new ThirdPersonMovementSettings();
     }
 
     //When the object is enabled 
-    private void OnEnable()
+    public void OnEnable()
     {
         //menu can listen to key inputs 
         menu = playerActionsAsset.Player.Menu;
@@ -36,7 +35,7 @@ public class PauseMenuCode : MonoBehaviour
     }
 
     //When the object is disabled
-    private void OnDisable()
+    public void OnDisable()
     {
         //Checks if a key input from action menu has been pressed 
         menu.performed -= Keypressed;
@@ -45,7 +44,7 @@ public class PauseMenuCode : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         //Set the gameobject to false.
         //Essentially, the menu is currently disabled on Start()
@@ -54,23 +53,28 @@ public class PauseMenuCode : MonoBehaviour
 
     //This function will change the SetActive of the gameobject 
     //when the key input "esc" has been pressed. 
-    private void Keypressed(InputAction.CallbackContext context)
+    public void Keypressed(InputAction.CallbackContext context)
     {
         var control = context.control;
-        Debug.Log("Input was triggered by: " + control.displayName);
+        Keypressed(control.displayName); // Call the refactored method
+    }
 
-        if (control.displayName == "Esc")
+    public void Keypressed(string keyName)
+    {
+        Debug.Log("Input was triggered by: " + keyName);
+
+        if (keyName == "Esc")
         {
             if(isPaused)
             {
-                ResumeGame(); //If paused is false disable menu 
+                ResumeGame(); // If paused, resume the game
             }
             else 
             {
-                PauseGame(); //If paused is true enable menu 
+                PauseGame(); // If not paused, pause the game
             }
         }
-    }
+}
 
     public void PauseGame()
     {
