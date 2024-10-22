@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/KayKit/Characters/KayKit - Adventurers (for Unity)/Materials/URP/barbarian_texture.mat.meta
 guid: 247eb7ec69249e0448d5ceea166c7071
+========
+guid: 93caadf4359ae8143aad35b3145d31af
+>>>>>>>> esho:Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000

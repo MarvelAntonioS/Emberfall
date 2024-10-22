@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/RougeMovement.cs.meta
+guid: 4334c19e247ef2a408cab63613fe4c77
+========
+guid: 63a4ecdcdd921ce4383ace765e560f7c
+>>>>>>>> esho:Assets/Esho_Assets/Scripts/ObjectChop.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

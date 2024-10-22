@@ -4,7 +4,7 @@ using UnityEngine;
 public class ObjectChopped : MonoBehaviour, Hitable
 {
     [SerializeField] private GameObject ChoppedObject;
-
+    [SerializeField] private Transform vfx;
     [SerializeField] private float delay = 0.45f;
     [SerializeField] public float respawnTime = 10f;
     [SerializeField] private float initialForce = 5f; // Increased initial force
@@ -32,6 +32,7 @@ public class ObjectChopped : MonoBehaviour, Hitable
         yield return new WaitForSeconds(delay);
 
         GameObject choppedInstance = Instantiate(ChoppedObject, transform.position, transform.rotation);
+        Instantiate(vfx, transform.position, transform.rotation);
 
         ApplyFallPhysics(choppedInstance);
 
