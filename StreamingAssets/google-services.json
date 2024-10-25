@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "666872199146",
+    "project_id": "emberfall-9151a",
+    "storage_bucket": "emberfall-9151a.appspot.com",
+    "firebase_url": "https://emberfall-9151a-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666872199146:android:a7205e77af7dc09a14e493",
+        "android_client_info": {
+          "package_name": "com.emberfall.firebasedb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiSRqrM28wY8A62dECTsCAvHD5aJlwzUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
