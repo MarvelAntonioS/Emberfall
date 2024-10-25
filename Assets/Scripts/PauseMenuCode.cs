@@ -50,6 +50,7 @@ public class PauseMenuCode : MonoBehaviour
         //Set the gameobject to false.
         //Essentially, the menu is currently disabled on Start()
         PauseMenu.SetActive(false);
+        
         //PauseMenu.SetActive(true); //Incorrect for of unit test 
     }
 
