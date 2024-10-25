@@ -4,7 +4,6 @@ public class CraftingTable : MonoBehaviour
 {
     public GameObject objectToEnable;
     public GameObject player;
-    public Camera playerCamera;
     public float interactionRange = 3f;
     private bool isActive = false;
 
@@ -27,13 +26,11 @@ public class CraftingTable : MonoBehaviour
 
     void CheckForInteraction()
     {
-        Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit, interactionRange) && Input.GetKeyDown(KeyCode.E))
+        float distance = Vector3.Distance(player.transform.position, transform.position);
+
+        if (distance <= interactionRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (hit.collider != null && hit.collider.gameObject == gameObject)
-            {
-                ActivateCraftingTable();
-            }
+            ActivateCraftingTable();
         }
     }
 
@@ -41,8 +38,8 @@ public class CraftingTable : MonoBehaviour
     {
         isActive = true;
         objectToEnable.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None; // Unlocks the cursor
+        Cursor.visible = true;                 // Makes the cursor visible
         SetPlayerControls(false);
     }
 
@@ -50,24 +47,17 @@ public class CraftingTable : MonoBehaviour
     {
         isActive = false;
         objectToEnable.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
+        // Let Unity automatically lock the cursor:
+        Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false;
         SetPlayerControls(true);
     }
 
     void SetPlayerControls(bool enable)
     {
-        foreach (Transform child in player.transform)
+        foreach (MonoBehaviour script in player.GetComponents<MonoBehaviour>())
         {
-            if (child.gameObject != playerCamera.gameObject)
-            {
-                child.gameObject.SetActive(enable);
-            }
-        }
-
-        foreach (MonoBehaviour script in player.GetComponentsInChildren<MonoBehaviour>())
-        {
-            if (script.gameObject != playerCamera.gameObject)
+            if (script != this && script != player.GetComponent<Camera>())
             {
                 script.enabled = enable;
             }
