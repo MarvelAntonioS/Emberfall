@@ -10,6 +10,11 @@ public class CraftingTable : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("E key pressed"); // Log a message to indicate key press
+        }
+
         if (Input.GetKeyDown(KeyCode.E) && isActive)
         {
             DeactivateCraftingTable();
