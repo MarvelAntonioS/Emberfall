@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
@@ -12,12 +13,31 @@ public class MainMenuController : MonoBehaviour
     public Slider volumeSlider;
     public Toggle muteToggle;
     public AudioSource backgroundMusic;
+    public ThirdPersonMovementSettings playerActionsAsset; // For input system
+    private InputAction menuAction;
+
+    void Awake()
+    {
+        playerActionsAsset = new ThirdPersonMovementSettings();
+    }
+
+    void OnEnable()
+    {
+        menuAction = playerActionsAsset.Player.Menu;
+        menuAction.performed += OnMenuInput;
+        playerActionsAsset.Player.Enable();
+    }
+
+    void OnDisable()
+    {
+        menuAction.performed -= OnMenuInput;
+        playerActionsAsset.Player.Disable();
+    }
 
     void Start()
     {
-        // Show the main menu at start and hide others
         ShowMainMenu();
-        DisablePlayerMovement(true);
+        
         // Load saved settings
         float savedVolume = PlayerPrefs.GetFloat("Volume", 0.5f);
         bool isMuted = PlayerPrefs.GetInt("Muted", 0) == 1;
@@ -27,39 +47,41 @@ public class MainMenuController : MonoBehaviour
         ApplyVolume();
     }
 
+    private void OnMenuInput(InputAction.CallbackContext context)
+    {
+        if (PauseMenuCode.isPaused)
+        {
+            ShowMainMenu();
+            Time.timeScale = 0f; // Pause game when main menu is active
+        }
+    }
+
     public void ShowMainMenu()
     {
         mainMenuPanel.SetActive(true);
         settingsPanel.SetActive(false);
         gamePanel.SetActive(false);
-        DisablePlayerMovement(true);
     }
 
     public void ShowSettings()
     {
         mainMenuPanel.SetActive(false);
         settingsPanel.SetActive(true);
-        DisablePlayerMovement(true);
     }
 
     public void StartGame()
     {
         mainMenuPanel.SetActive(false);
         gamePanel.SetActive(true);
-        DisablePlayerMovement(false); // Enable player movement when the game starts
+        Time.timeScale = 1f; // Resume game on start
     }
 
     public void ExitGame()
     {
         Application.Quit();
-        Debug.Log("Game is exiting..."); // This will show in the editor but not in a built game.
+        Debug.Log("Game is exiting...");
     }
-    private void DisablePlayerMovement(bool disable)
-    {
-        // Disable or enable the player's movement script or controller
-        player.SetActive(!disable);
 
-    }
     public void ApplyVolume()
     {
         backgroundMusic.volume = muteToggle.isOn ? 0 : volumeSlider.value;
@@ -80,8 +102,7 @@ public class MainMenuController : MonoBehaviour
 
     public void CloseSettings()
     {
-        settingsPanel.SetActive(false); // Hide the settings panel
-        mainMenuPanel.SetActive(true);  // Show the main menu panel
+        settingsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
-
 }

@@ -48,8 +48,8 @@ public class CraftingTable : MonoBehaviour
         isActive = false;
         objectToEnable.SetActive(false);
         // Let Unity automatically lock the cursor:
-        Cursor.lockState = CursorLockMode.Locked; 
-        Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked; 
+        //Cursor.visible = false;
         SetPlayerControls(true);
     }
 
