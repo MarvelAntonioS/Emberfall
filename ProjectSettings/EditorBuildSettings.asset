@@ -4,11 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Scene_changing.unity
-    guid: c59173d16c5c64b46b8545ae45140743
-  - enabled: 1
-    path: Assets/Scenes/Cabin_Interior.unity
-    guid: 42e158da43d50764c84022ae4d771c72
+  m_Scenes: []
   m_configObjects: {}

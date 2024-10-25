@@ -3,21 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Axe
-  - Pickaxe
-  - FxTemporaire
-  - PlayerEyes
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Pickup
+  - 
   - Water
   - UI
-  - Environment
-  - Breakable
-  - Items
+  - 
+  - 
+  - 
   - 
   - 
   - 
