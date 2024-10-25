@@ -1533,7 +1533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287738275}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.023195703, y: -0.0000000061036682, z: 9.1764246e-10, w: 0.999731}
+  m_LocalRotation: {x: 0.023195695, y: -1.1995284e-16, z: 1.8034043e-17, w: 0.999731}
   m_LocalPosition: {x: 0, y: -0.0000002365277, z: 0.0000000299678}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2324,7 +2324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363017017}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000037534242, y: 1.3198655e-16, z: -1.09035e-16, w: 1}
+  m_LocalRotation: {x: 0.000000007435793, y: -0.000000016026709, z: 0.0000000020305653, w: 1}
   m_LocalPosition: {x: 0, y: -0.0000002365277, z: 0.0000000299678}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8140,7 +8140,7 @@ MonoBehaviour:
   mainMenuPanel: {fileID: 1670541434}
   settingsPanel: {fileID: 1168631703}
   gamePanel: {fileID: 1934338086}
-  player: {fileID: 1844787318}
+  player: {fileID: 0}
   volumeSlider: {fileID: 382935466}
   muteToggle: {fileID: 638135866}
   backgroundMusic: {fileID: 1792159544}
@@ -9129,7 +9129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4334c19e247ef2a408cab63613fe4c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChoppedObject: {fileID: 0}
+  ChoppedObject: {fileID: 3772758377241541406, guid: 1e3f650909be38040a813b35f6e13f42, type: 3}
   delay: 0.45
   respawnTime: 10
   initialForce: 5
@@ -10481,7 +10481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236537097}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04647954, y: 2.574428e-16, z: -6.6396146e-18, w: 0.9989193}
+  m_LocalRotation: {x: 0.04647955, y: -1.1950015e-16, z: 2.082362e-17, w: 0.9989193}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
